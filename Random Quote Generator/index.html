@@ -7,15 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div>
+    <div class="main-layout">
+        <div class="container">
+            <h1>Random Quote Generator</h1>
+            <div class="category-section">
+                <label for="category-select">Select a category:</label>
+                <select id="category-select">
+                    <option value="all">All</option>
+                    <option value="motivational">Motivational</option>
+                    <option value="inspirational">Inspirational</option>
+                    <option value="life">Life</option>
+                </select>
+            </div>
+            <div class="quote-box">
+                <p id="quote">Click the button to get a quote!</p>
+            </div>
+            <button id="new-quote">New Quote</button>
+        </div>
+        <div class="image-container">
             <img src="undraw_source-code_m0vh.svg" alt="Random Quote Image" class="quote-image">
         </div>
-        <h1>Random Quote Generator</h1>
-        <div class="quote-box">
-            <p id="quote">Click the button to get a quote!</p>
-        </div>
-        <button id="new-quote">New Quote</button>
     </div>
 
     <script src="script.js"></script>
