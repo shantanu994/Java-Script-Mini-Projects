@@ -1,4 +1,4 @@
-// Enhanced quotes with categories
+
 const quotes = {
     all: [
         "The best way to get started is to quit talking and begin doing.",
@@ -80,7 +80,6 @@ function updateQuoteCounter() {
         counterElement.style.marginTop = "10px";
         document.querySelector(".container").appendChild(counterElement);
     }
-    counterElement.textContent = `Quotes shown: ${quoteCount}`;
 }
 
 // Function to handle category change
